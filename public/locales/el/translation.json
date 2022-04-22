@@ -1,0 +1,1122 @@
+{
+   "inventory": "Αποθηκευτικός χώρος",
+   "products": "Products",
+   "menu": "Ηλεκτρονικό Κατάστημα",
+   "settings": "Ρυθμίσεις",
+   "units": {
+      "gm": "gm",
+      "gms": "gms",
+      "kg": "kg",
+      "kgs": "kgs",
+      "hours": "ώρες",
+      "mins": "λεπτά",
+      "minutes": "λπτά",
+      "days": "μέρες",
+      "weeks": "εβδομάδες",
+      "unit": "έως",
+      "cs": "cs",
+      "gram": "γραμμάριο",
+      "loaf": "φρατζόλα"
+   },
+   "apps": {
+      "inventory": {
+         "components": {
+            "tabs": {
+               "close tab": "Κλείσιμο Καρτέλας"
+            },
+            "workorder": {
+               "processing as shipped": "Εεξεργασία όπως αποστέλλεται",
+               "on hand": "Σ ετοιμότητα",
+               "shelf life": "Δάρκεια ζωής",
+               "available": "Διαθέσιμο",
+               "par": "Παρούσα αξία"
+            }
+         },
+         "context": {
+            "auth": {},
+            "bulkorder": {},
+            "item": {},
+            "supplier": {},
+            "tabs": {}
+         },
+         "sections": {
+            "header": {},
+            "main": {},
+            "sidebar": {
+               "listings": "Κατάλογος",
+               "suppliers": "Προμηθευτές",
+               "supplier items": "Id Προμηθευτή *"
+            }
+         },
+         "views": {
+            "forms": {
+               "bulkworkorder": {
+                  "tunnels": {
+                     "select input bulk item processing": "Επιλέξτε Επεξεργασία μαζικού στοιχείου εισαγωγής",
+                     "select output bulk item processing": "Επιλέξτε Επεξεργασία μαζικού στοιχείου εισαγωγής",
+                     "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε...",
+                     "select station": "Επιλέξτε σταθμό",
+                     "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή",
+                     "select user": "Επιλογή χρήστη"
+                  },
+                  "publish": "Δημοσίευση",
+                  "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή",
+                  "output bulk item": "Μαζικό στοιχείο εξόδου",
+                  "select output bulk item": "Επιλέξτε Μαζικό στοιχείο εξόδου",
+                  "yield percentage": "Πσοστό όρτσα",
+                  "enter output quantity": "Εισαγάγετε την ποσότητα εξόδου",
+                  "user assigned": "Αντιστοίχιση χρήστη",
+                  "select and assign user to work": "Επιλέξτε και εκχωρήστε το χρήστη στην εργασία",
+                  "station assigned": "Ο σταθμός έχει ανατεθεί",
+                  "select and assign station to route to": "Επιλέξτε και αντιστοιχίστε το σταθμό προς το",
+                  "work order": "Παραγγελία Εργασίας",
+                  "input bulk item": "Μαζικό στοιχείο εξόδου",
+                  "select input bulk item": "Επιλέξτε Μαζικό στοιχείο εξόδου",
+                  "suggested committed quantity": "Προτεινόμενη δεσμευμένη ποσότητα",
+                  "scheduled on": "Προγραμματισμένη στις",
+                  "date (mm/dd/yy)": "Ημερομηνία (mm / dd / yy)"
+               },
+               "item": {
+                  "tunnels": {
+                     "allergens": {
+                        "add allergens": "Προσθήκη αλλεργιογόνων",
+                        "save": "Αποθήκευση",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     },
+                     "allergenstunnel": {
+                        "add allergens": "Προσθήκη αλλεργιογόνων",
+                        "save": "Αποθήκευση",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     },
+                     "config": {
+                        "configure processing": "Παύση/συνέχεια κωδικοποίησης",
+                        "save": "Αποθήκευση",
+                        "set par level": "Ορίστε το επίπεδο ισοτιμίας",
+                        "max inventory level": "Μέγιστο επίπεδο αποθέματος",
+                        "processing information": "Εφαρμογή Επεξεργασίας",
+                        "add photo to your processing": "Προσθέστε φωτογραφία στην επεξεργασία σας",
+                        "upto 1MB - only JPG, PNG, PDF allowed": "έως 1MB - επιτρέπονται μόνο JPG, PNG, PDF",
+                        "labour time per 100gm": "Χρόνος εργασίας ανά 100gm",
+                        "percentage of yield": "Ποσοστό των παραγγελιών",
+                        "shelf life": "Διάρκεια ζωής",
+                        "bulk dnesity": "Μαζική πυκνότητα",
+                        "nutritions per 100gm": "Διατροφή ανά 100 γραμμάρια",
+                        "add nutritions": "Προσθέστε τιμές διατροφής",
+                        "allergens": "Αλλεργιογόνα",
+                        "add allergens": "Προσθήκη αλλεργιογόνων",
+                        "operating procedure for processing": "Λειτουργική διαδικασία για επεξεργασία",
+                        "standard operating procedure": "Τυπική διαδικασία λειτουργίας",
+                        "equipments needed": "Απαιτούνται εξοπλισμοί",
+                        "calories": "θρμίδες",
+                        "total fat": "Ολικό λίπος"
+                     },
+                     "configurederivedprocessingtunnel": {
+                        "configure processing": "Παύση/συνέχεια κωδικοποίησης",
+                        "set par level": "Ορίστε το επίπεδο ισοτιμίας",
+                        "max inventory level": "Μέγιστο επίπεδο αποθέματος",
+                        "processing information": "Επεξεργασία πληροφοριών",
+                        "add photo to your processing": "Προσθέστε φωτογραφία στην επεξεργασία σας",
+                        "upto 1MB - only JPG, PNG, PDF allowed": "έως 1MB - επιτρέπονται μόνο JPG, PNG, PDF",
+                        "labour time per 100gm": "Χρόνος εργασίας ανά 100gm",
+                        "percentage of yield": "Ποσοστό των παραγγελιών",
+                        "shelf life": "Δάρκεια ζωής",
+                        "bulk density": "Μαζική πυκνότητα",
+                        "nutritions per 100gm": "Διατροφή ανά 100 γραμμάρια",
+                        "calories": "θρμίδες",
+                        "total fat": "Ολικό λίπος",
+                        "add nutritions": "Προσθέστε τιμές διατροφής",
+                        "allergens": "Αλλεργιογόνα",
+                        "add allergens": "Προσθήκη αλλεργιογόνων"
+                     },
+                     "configuresachettunnel": {
+                        "add sachet": "Προσθέστε το Sachet",
+                        "set par level": "Ορίστε το επίπεδο ισοτιμίας",
+                        "pkt": "Σμείο",
+                        "max inventory level": "Μέγιστο επίπεδο αποθέματος"
+                     },
+                     "info": {
+                        "item information": "Πληροφορίες είδους",
+                        "next": "Επόμενο",
+                        "item name": "Όνομα προϊόντος",
+                        "item sku": "Κωδικός προϊόντος",
+                        "unit qty": "Μονάδα qty",
+                        "unit price": "Τιμή μονάδος",
+                        "case qty": "Περίπτωση qty",
+                        "unit": "μονάδα",
+                        "minimum order value": "Ελάχιστο σύνολο παραγγελίας",
+                        "lead time": "Χρόνος πρώτου",
+                        "days": "Μέρες",
+                        "weeks": "εβδομάδες",
+                        "upload certificates for the item authentication (if any)": "Μεταφόρτωση πιστοποιητικών για τον έλεγχο ταυτότητας στοιχείων (εάν υπάρχουν)"
+                     },
+                     "nutritiontunnel": {
+                        "add nutrition values": "Προσθέστε τιμές διατροφής",
+                        "title": "Προσθέστε τις τιμές ανά 100 γραμμάρια και κάντε τις συνταγές σας πιο έξυπνες με τα αυτόματα διατροφικά στοιχεία που δημιουργούνται",
+                        "subtitle": "Μπορείτε να παραλείψετε τις τιμές που δεν θέλετε να βάλετε.",
+                        "daily value": "Καθημερινή αξία",
+                        "calories": "Θρμίδες",
+                        "total fat": "Ολικό λίπος",
+                        "saturated fat": "Κορεσμένα λιπαρά",
+                        "trans fat": "Τρανς Λιπαρά",
+                        "cholestrol": "Χοληστερίνη",
+                        "sodium": "Νάτριο",
+                        "total carbohydrates": "Συνολικοί υδατάνθρακες",
+                        "dietry fibre": "Διαιτητικές ίνες",
+                        "sugar": "Ζάχαρη",
+                        "protein": "Πρωτεΐνες",
+                        "vitamin A": "Βιταμίνη Α",
+                        "vitamin C": "Βιταμίνη C",
+                        "calcium": "Ασβέστιο",
+                        "iron": "Σιδήρο"
+                     },
+                     "processing": {
+                        "select processing as item shipped": "Επιλέξτε Επεξεργασία ως αποστολή αντικειμένου",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     },
+                     "selectderivedprocessingtunnel": {
+                        "select processing": "Ειλέξτε συσκευασία",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     },
+                     "suppliers": {
+                        "select supplier": "Επιλέξτε έναν προμηθευτή",
+                        "type what you’re looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     }
+                  },
+                  "add item information": "Προσθήκη πληροφοριών στοιχείου",
+                  "unit qty": "Μονάδα qty",
+                  "case qty": "Περίπτωση qty",
+                  "min order value": "Ελάχιστη τιμή παραγγελίας",
+                  "lead time": "Χρόνος πρώτου",
+                  "processings": "Σε επεξεργασία",
+                  "as recieved from supplier": "Όπως παραλήφθηκε από τον προμηθευτή",
+                  "on hand": "Σε ετοιμότητα",
+                  "shelf life": "Δάρκεια ζωής",
+                  "derived from recieved processing": "Προέρχεται από την παραλαβή επεξεργασίας",
+                  "select any processing from left menu to get started!": "Επιλέξτε οποιαδήποτε Επεξεργασία από το αριστερό μενού για να ξεκινήσετε!",
+                  "real-time": "Πραγματικός χρόνος",
+                  "planned-lot": "Προγραμματισμένη παρτίδα",
+                  "awaiting": "Περιμένουν",
+                  "commited": "Δσμευμένος",
+                  "consumed": "Καταναλώθηκε",
+                  "sachets": "Φκελάκια",
+                  "par": "Παρούσα αξία",
+                  "add sachets": "Προσθέστε φακελάκια"
+               },
+               "supplier": {
+                  "tunnels": {
+                     "add address": "Προσθήκη διεύθυνσης",
+                     "shipping location": "Τοποθεσία αποστολής",
+                     "enter manually": "Χειροκίνητη εισαγωγή",
+                     "address line 1": "Γραμμή διεύθυνσης 1",
+                     "address line 2": "Γραμμή διεύθυνσης 2",
+                     "city": "Πόλη",
+                     "zip code": "Ταχυδρομικός κώδικας",
+                     "special instructions": "Ειδικές οδηγίες",
+                     "add person of contact": "Προσθήκη ατόμου επαφής",
+                     "first name": "Μικρό όνομα",
+                     "last name": "Επώνυμο",
+                     "email": "email",
+                     "phone number": "Τηλεφωνικό νούμερο",
+                     "10 digit phone number": "10ψήφιος αριθμός τηλεφώνου"
+                  },
+                  "untitled supplier": "Προμηθευτής χωρίς τίτλο",
+                  "save": "Αποθήκευση",
+                  "update": "Ενημέρωση",
+                  "submit": "Αποστολή",
+                  "add logo of the supplier": "Προσθέστε το λογότυπο του Προμηθευτή",
+                  "upto 1MB - only JPGs, PNGs, and PDFs are allowed": "έως 1MB - επιτρέπονται μόνο JPG, PNG, PDF.",
+                  "address": "Διεύθυνση",
+                  "add address": "Προσθήκη Διεύθυνσης",
+                  "person of contact": "Προσθήκη ατόμου επαφής",
+                  "add person of contact": "Προσθήκη ατόμου επαφής",
+                  "terms and conditions": "Όροι και προϋποθέσεις",
+                  "payment terms": "Όροι Πληρωμής",
+                  "shipping terms": "Οροι αποστολής"
+               },
+               "purchaseorders": {
+                  "tunnels": {
+                     "selectsupplieritemtunnel": {
+                        "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     }
+                  },
+                  "purchase order": "Εντολή αγοράς",
+                  "submit": "Υοβάλλουν",
+                  "supplier item": "Id Προμηθευτή *",
+                  "enter order quantity": "Εισαγάγετε την ποσότητα εξόδου",
+                  "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή"
+               },
+               "sachetworkorder": {
+                  "tunnels": {
+                     "select input bulk item processing": "Επιλέξτε Επεξεργασία μαζικού στοιχείου εισαγωγής",
+                     "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε...",
+                     "select label templates": "Επιλέξτε Πρότυπα ετικετών",
+                     "select output bulk sachet": "Επιλέξτε Μαζικό στοιχείο εξόδου",
+                     "select packaging": "Ειλέξτε συσκευασία",
+                     "select station": "Επιλέξτε σταθμό",
+                     "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή",
+                     "select user": "Επιλογή χρήστη"
+                  },
+                  "work order": "Παραγγελία Εργασίας",
+                  "publish": "Δημοσίευση",
+                  "select supplier item": "Επιλέξτε Στοιχείο προμηθευτή",
+                  "input bulk item": "Μαζικό στοιχείο εξόδου",
+                  "select input bulk item": "Επιλέξτε Μαζικό στοιχείο εξόδου",
+                  "output sachet item": "Στοιχείο φακέλου εξόδου",
+                  "select output sachet item": "Επιλέξτε Μαζικό στοιχείο εξόδου",
+                  "enter number of sachtes": "Εισαγάγετε τον αριθμό των φακελών",
+                  "suggested committed quantity": "Προτεινόμενη δεσμευμένη ποσότητα",
+                  "packaging": "Συσκευασία",
+                  "select packaging": "Επιλέξτε Συσκευασία",
+                  "label template": "Ετικέτα πρότυπο",
+                  "select label template": "Επιλέξτε Πρότυπα ετικετών",
+                  "user assigned": "Αντιστοίχιση χρήστη",
+                  "select and assign user to work": "Επιλέξτε και εκχωρήστε το χρήστη στην εργασία",
+                  "scheduled on": "Προγραμματισμένη στις",
+                  "date (mm/dd/yy)": "Ημερομηνία (mm / dd / yy)",
+                  "station assigned": "Ο σταθμός έχει ανατεθεί",
+                  "select and assign station to route to": "Επιλέξτε και αντιστοιχίστε το σταθμό προς το"
+               }
+            },
+            "home": {
+               "inventory app": "Εφαρμογή αποθέματος",
+               "suppliers": "Προμηθευτές",
+               "items": "Αντικείμενα",
+               "work orders": "Παραγγελίες Εργασίας",
+               "purchase orders": "Εντολή αγοράς"
+            },
+            "listings": {
+               "item": {
+                  "supplier items": "Είδη προμηθευτή",
+                  "filters": "φίλτρα",
+                  "search": "Αναζήτηση"
+               },
+               "purchaseorders": {
+                  "purchase orders": "Εντολές αγοράς"
+               },
+               "supplier": {
+                  "suppliers": "Προμηθευτές",
+                  "name": "Ονομα",
+                  "person of contact": "Πρόσωπο επαφής",
+                  "active": "Ενεργός"
+               },
+               "workorders": {
+                  "work orders": "Παραγγελίες εργασίας",
+                  "select type of work order": "Επιλέξτε Τύπος παραγγελίας εργασίας",
+                  "bulk work order": "Μαζική παραγγελία εργασίας",
+                  "bulk subtitle 1": "Η μαζική παραγγελία εργασίας είναι η δημιουργία μαζικών αντικειμένων με αλλαγή της επεξεργασίας",
+                  "sachet work order": "Παραγγελία εργασίας Sachet",
+                  "sachet subtitle 1": "Το Sachet Work Order είναι να δημιουργήσετε προγραμματισμένα είδη παρτίδων με διαίρεση και συσκευασία"
+               }
+            }
+         }
+      },
+      "products": {
+         "components": {
+            "menu": {},
+            "processings": {
+               "processings": "Επεξεργασίες",
+               "sachets": "Φακελάκια",
+               "recipes": "Συνταγές",
+               "select processings": "Επιλέξτε Επεξεργασίες",
+               "save": "Αποθήκευση",
+               "type what you’re looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+            },
+            "recipes": {},
+            "sachet": {
+               "taken inventory": "Λήψη αποθέματος",
+               "active": "Ενεργός",
+               "live": "Ζωντανή",
+               "mode of fulfillment": "Τρόπος εκπλήρωσης",
+               "station": "Σταθμός",
+               "item": "Είδος",
+               "accuracy": "Ακρίβεια",
+               "packaging": "Συσκευασία",
+               "label": "Επιγραφή",
+               "atleast ": "Τουλάχιστον ",
+               "not weighing": "Όχι ζύγιση",
+               "not labelled": "Χωρίς ετικέτα",
+               "daily value": "Καθημερινή αξία",
+               "calories": "Θρμίδες",
+               "total fat": "Ολικό λίπος",
+               "saturated fat": "Κορεσμένα λιπαρά",
+               "trans fat": "Τρανς Λιπαρά",
+               "cholestrol": "Χοληστερίνη",
+               "sodium": "Νάτριο",
+               "total carbohydrates": "Συνολικοί υδατάνθρακες",
+               "dietry fibre": "Διαιτητικές ίνες",
+               "sugar": "Ζάχαρη",
+               "protein": "Πρωτεΐνες",
+               "vitamin A": "Βιταμίνη Α",
+               "vitamin C": "Βιταμίνη C",
+               "calcium": "Ασβέστιο",
+               "iron": "Σιδήρο"
+            },
+            "sachets": {
+               "sachets": "Φακελάκια",
+               "active: real-time": "Ενεργό: Σε πραγματικό χρόνο",
+               "available: 12/40 pkt": "Διαθέσιμο: 12/40 pkt",
+               "modes of fulfillment": "Τρόπος εκπλήρωσης",
+               "inventory": "Καταγραφή εμπορευμάτων",
+               "add sachet": "Προσθέστε το Sachet",
+               "add sachet for processing": "Προσθέστε το Sachet για επεξεργασία",
+               "save": "Σώσει",
+               "enter quantity": "Εισαγάγετε την ποσότητα",
+               "take inventory": "Απογράφω",
+               "mode of fulfillment": "Τρόπος εκπλήρωσης",
+               "station": "Σταθμός",
+               "item": "Αντικείμενο",
+               "accuracy": "Ακρίβεια",
+               "packaging": "Συσκευασία",
+               "label": "Ετικέτα",
+               "select sub title": "Επιλέξτε τίτλο",
+               "select station for": "Επιλέξτε σταθμό",
+               "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε...",
+               "select sachet item for": "Επιλέξτε Item Sachet για",
+               "select bulk item for": "Επιλέξτε Item Sachet για",
+               "add packaging for processing": "Προσθήκη συσκευασίας για επεξεργασία",
+               "add label template for processing": "Προσθήκη προτύπου ετικέτας για επεξεργασία"
+            },
+            "styled": {},
+            "tabs": {
+               "close tab": "Κλείσιμο Καρτέλας"
+            }
+         },
+         "sections": {
+            "header": {},
+            "main": {},
+            "sidebar": {
+               "listings": "Κατάλογος",
+               "recipes": "Συνταγές",
+               "ingredients": "Συστατικά"
+            }
+         },
+         "utils": {},
+         "views": {
+            "forms": {
+               "ingredientform": {
+                  "untitled ingredient": "Συστατικό χωρίς τίτλο",
+                  "open in editor": "Άνοιγμα στο πρόγραμμα επεξεργασίας",
+                  "publish": "Δημοσίευση",
+                  "processings": "Σε επεξεργασία",
+                  "sachets": "Φκελάκια",
+                  "add photo to your ingredient": "Προσθέστε φωτογραφία στην επεξεργασία σας",
+                  "upto 1MB - only JPG, PNG, PDF allowed": "έως 1MB - επιτρέπονται μόνο JPG, PNG, PDF",
+                  "select photo for ingredient": "Επιλέξτε Φωτογραφία για συστατικό",
+                  "add dummy photo": "Προσθήκη εικονικής φωτογραφίας"
+               },
+               "recipeform": {
+                  "tunnels": {
+                     "select sachet": "Ειλέξτε φακελάκι",
+                     "add ingredients": "Προσθήκη συστατικών",
+                     "ingredients": "Συστατικά",
+                     "select processing": "Ειλέξτε συσκευασία",
+                     "for serving": "Ανά Μερίδα",
+                     "people": "Συνδέσεις",
+                     "no servings available": "Δεν υπάρχει χώρος για κατασκήνωση",
+                     "select an ingredient": "Επιλέξτε ένα συστατικό",
+                     "add servings": "Προσθήκη μερίδων",
+                     "enter servings": "Ανά Μερίδα",
+                     "enter": "Εισαγωγή",
+                     "fill this first to continue adding new servings!": "συμπληρώστε το πρώτα για να συνεχίσετε να προσθέτετε νέες μερίδες!",
+                     "add more servings": "Προσθήκη περισσότερων μερίδων",
+                     "add recipe meta": "Προσθήκη συνταγής Meta",
+                     "utensils (add list of utensils with comma separated values)": "Εργαλεία (προσθήκη λίστας σκευών με τιμές διαχωρισμένες με κόμμα)",
+                     "recipe description": "Περιγραφή συνταγής",
+                     "cooking time (in minutes)": "Χρόνος μαγειρέματος (σε λεπτά)",
+                     "fill all of the fields above!": "Συμπληρώστε όλα τα παραπάνω πεδία!",
+                     "type what you’re looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                  },
+                  "ingredients": "Συστατικά",
+                  "ingredient name": "Όνομα συστατικού",
+                  "processing": "Επεξεργασία",
+                  "select ingredients": "Επιλέξτε ένα συστατικό",
+                  "select sachet": "Ειλέξτε φακελάκι",
+                  "slip name": "Όνομα δελτίου",
+                  "procedure title": "Τίτλος διαδικασίας",
+                  "cooking process": "Διαδικασία μαγειρέματος",
+                  "step title": "Τίτλος βήματος",
+                  "add a step": "Προσθέστε ένα βήμα",
+                  "description": "Περιγραφή",
+                  "add procedure": "Προσθήκη διαδικασίας",
+                  "select photos for this step": "Επιλέξτε Φωτογραφίες για αυτό το βήμα",
+                  "upto 1MB - only JPGs, PNGs, and PDFs are allowed": "έως 1MB - επιτρέπονται μόνο JPG και PNG.",
+                  "recipe name": "Όνομα συνταγής",
+                  "save": "Σώσει",
+                  "author": "Συντάκτης",
+                  "cuisine": "Κουζίνα",
+                  "publish": "Δημοσίευση",
+                  "chef name": "Όνομα σεφ",
+                  "add description": "Προσθέστε περιγραφή",
+                  "add photos to your recipe": "Προσθέστε φωτογραφίες στη συνταγή σας",
+                  "upto 1MB": "έως 1MB",
+                  "only JPGs, PNGs and PDFs are allowed": "επιτρέπονται μόνο JPG, PNG και PDF.",
+                  "utensils": "Σκεύη",
+                  "cooking time": "Χρόνος μαγειρέματος",
+                  "servings": "Μερίδες",
+                  "add servings": "Προσθήκη μερίδων"
+               }
+            },
+            "home": {
+               "products app": "Εφαρμογή συνταγής",
+               "recipes": "Συνταγές",
+               "ingredients": "Συστατικά"
+            },
+            "listings": {
+               "ingredientslisting": {
+                  "ingredients": "Συστατικά",
+                  "filters": "Φίλτρα",
+                  "search": "Αναζήτηση",
+                  "name": "Ονομα",
+                  "variant": "Παραλλαγή",
+                  "quantity": "Ποσότητα",
+                  "modes of fulfillment": "Τρόπος εκπλήρωσης",
+                  "stations": "Σταθμοί",
+                  "supplier item": "Id Προμηθευτή *",
+                  "availability": "Διαθεσιμότητα",
+                  "processings": "Σε επεξεργασία",
+                  "created at": "Δημιουργήθηκε"
+               },
+               "recipeslisting": {
+                  "recipes": "Συνταγές",
+                  "search": "Αναζήτηση",
+                  "name": "Ονομα",
+                  "author": "Συντάκτης",
+                  "# of servings": "# μερίδων",
+                  "cooking time": "Χρόνος μαγειρέματος",
+                  "pagination": "Σελιδοποίηση",
+                  "filters": "Φίλτρα",
+                  "total": "Σύνολο",
+                  "recipe name": "Όνομα συνταγής",
+                  "recipe author": "Συνταγή συνταγής",
+                  "servings": "Σερβίρισμα",
+                  "ingredient count": "Πλήθος συστατικών"
+               }
+            }
+         }
+      },
+      "menu": {
+         "components": {
+            "formheading": {},
+            "tabs": {
+               "close tab": "Κλείσιμο Καρτέλας"
+            },
+            "tunnelcomponents": {}
+         },
+         "sections": {
+            "header": {},
+            "main": {},
+            "sidebar": {
+               "listings": "Κατάλογος",
+               "products": "Προϊόντα",
+               "collections": "Collections"
+            }
+         },
+         "views": {
+            "forms": {
+               "collection": {
+                  "components": {
+                     "categories": {
+                        "category name": "Όνομα Κατηγορίας",
+                        "add product": "Προσθήκη Προϊόντος",
+                        "add category": "Προσθέστε κατηγορία"
+                     },
+                     "configuration": {
+                        "collection availability": "Διαθεσιμότητα Συλλογής",
+                        "repeat yearly": "Επανάληψη ετησίως",
+                        "repeat monthly": "Επανάληψη μηνιαία",
+                        "repeat weekly": "Επανάληψη εβδομαδιαία",
+                        "repeat daily": "Επανάληψη καθημερινά",
+                        "from": "Από",
+                        "till": "Μέχρι",
+                        "count": "Πλήθος",
+                        "interval": "Διάστημα",
+                        "week starts on": "Η εβδομάδα ξεκινά από",
+                        "monday": "Δευτέρα",
+                        "tuesday": "Τρίτη",
+                        "wednesday": "Τετάρτη",
+                        "thursday": "Thursday",
+                        "friday": "Παρασκευή",
+                        "saturday": "Σάββατο",
+                        "sunday": "Κριακή",
+                        "available on": "Διαθέσιμο την",
+                        "every monday": "Κάθε Δευτέρα",
+                        "every tuesday": "Κάθε Τρίτη",
+                        "every wednesday": "Κάθε Τετάρτη",
+                        "every thursday": "Every Thursday",
+                        "every friday": "Κάθε Παρασκευή",
+                        "every saturday": "Κάθε Πέμπτη",
+                        "every sunday": "Κάθε Κυριακή",
+                        "available in": "Διαθέσιμο την",
+                        "jan": "Ιαν",
+                        "feb": "Φεβ",
+                        "mar": "Μαρ",
+                        "apr": "Απρ",
+                        "may": "Μάιος",
+                        "jun": "Ιουν",
+                        "jul": "Ιουλ",
+                        "aug": "Άυγ",
+                        "sep": "Σεπ",
+                        "oct": "Οκτ",
+                        "nov": "Νοε",
+                        "dec": "Δεκ"
+                     }
+                  },
+                  "tunnels": {
+                     "products": {
+                        "select and add products to the collection": "Επιλέξτε και προσθέστε προϊόντα στη συλλογή",
+                        "save": "Αποθήκευση",
+                        "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                     },
+                     "producttypetunnel": {
+                        "select product type": "Επιλέξτε Τύπος προϊόντος",
+                        "inventory product": "Προϊόν Inventroy",
+                        "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                        "simple recipe product": "Προϊόντα απλής συνταγής",
+                        "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση",
+                        "customizable product": "Προσαρμόσιμο προϊόν",
+                        "subtitle 3": " Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση",
+                        "combo product": "Προϊόν συνδυασμού",
+                        "subtitle 4": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                     }
+                  },
+                  "collection name": "Όνομα Συλλογής",
+                  "add products": "Προσθήκη προϊόντων",
+                  "configure shop": "Διαμόρφωση καταστήματος",
+                  "open in editor": "Άνοιγμα στο πρόγραμμα επεξεργασίας",
+                  "save": "Αποθήκευση",
+                  "saving": "Saving...",
+                  "save and exit": "Αποθήκευση και έξοδος",
+                  "proceed": "Συνέχεια"
+               },
+               "product": {
+                  "comboproduct": {
+                     "components": {
+                        "description": {
+                           "add description": "Προσθέστε περιγραφή"
+                        },
+                        "items": {
+                           "items": "Αντικείμενα",
+                           "add product": "Προσθήκη προϊόντος",
+                           "add items": "Προσθήκη αντικειμένων",
+                           "accompanients are taken as per added on the selected product": "Τα συνοδευτικά λαμβάνονται σύμφωνα με την προσθήκη στο επιλεγμένο προϊόν",
+                           "pricing": "Τιμολόγηση",
+                           "servings": "Σερβίρισμα",
+                           "options": "Επιλογές",
+                           "labels": "Ετικέτες",
+                           "price": "Τιμή",
+                           "discount": "Έκπτωση",
+                           "discounted price": "Discounted Price",
+                           "meal kit": "Σετ γεύματος",
+                           "ready to eat": "Ετοιμος να φάω"
+                        }
+                     },
+                     "tunnels": {
+                        "descriptiontunnel": {
+                           "add description and tags": "Προσθήκη περιγραφής και ετικετών",
+                           "saving": "Αποθήκευση...",
+                           "save": "Αποθήκευση",
+                           "tags": "Ετικέτες",
+                           "description": "Περιγραφή"
+                        },
+                        "itemstunnel": {
+                           "add items": "Ajouter des articles",
+                           "saving": "Αποθήκευση...",
+                           "save": "Αποθήκευση",
+                           "label your items to add recipes for": "Επισημάνετε τα στοιχεία σας για να προσθέσετε συνταγές",
+                           "enter": "Εισαγω",
+                           "add another item": "Προσθήκη άλλου αντικειμένου"
+                        },
+                        "productstunnel": {
+                           "select product to add": "Επιλέξτε Προϊόν για προσθήκη",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "producttypetunnel": {
+                           "select product type": "Επιλέξτε Τύπος προϊόντος",
+                           "inventory product": "Προϊόν Inventroy",
+                           "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                           "simple recipe product": "Προϊόντα απλής συνταγής",
+                           "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση",
+                           "customizable product": "Προσαρμόσιμο προϊόν",
+                           "subtitle 3": " Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                        }
+                     },
+                     "product name": "Όνομα Προϊόντος",
+                     "save": "Αποθήκευση",
+                     "publish": "Δημοσίευση"
+                  },
+                  "customizableproduct": {
+                     "components": {
+                        "accompaniments": {
+                           "add accompaniment types": "Προσθήκη τύπων συνοδείας"
+                        },
+                        "description": {
+                           "add description": "Προσθήκη περιγραφής"
+                        },
+                        "items": {
+                           "default": "Προεπιλογή",
+                           "add products": "Προσθέστε προϊόντα",
+                           "make default": "Ορισμός ως Προεπιλεγμένο",
+                           "pricing": "Τιμολόγηση",
+                           "price": "Price",
+                           "discounted price": "Discounted Price",
+                           "accompaniments": "Συνοδευτικά",
+                           "labels": "Ετικέτες",
+                           "servings": "Σερβίρισμα",
+                           "options": "Επιλογές",
+                           "discount": "Έκπτωση",
+                           "meal kit": "Σετ γεύματος",
+                           "ready to eat": "Ετοιμος να φάω",
+                           "accompanients are taken as per added on the selected product": "Accompanients are taken as per added on the selected product"
+                        },
+                        "products": {
+                           "add products": "Προσθήκη προϊόντων",
+                           "discount as accompaniment": "Έκπτωση ως Συνοδεία"
+                        }
+                     },
+                     "tunnels": {
+                        "accompanimenttypetunnel": {
+                           "select accompaniment type": "Επιλέξτε Τύπος Συνοδείας",
+                           "save": "Αποθήκευση",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "descriptiontunnel": {
+                           "add description and tags": "Προσθήκη περιγραφής και ετικετών",
+                           "save": "Αποθήκευση",
+                           "tags": "Ετικέτες",
+                           "description": "Περιγραφή"
+                        },
+                        "itemstunnel": {
+                           "select": "Επιλογή",
+                           "inventory products": "Προϊόντα Inventroy",
+                           "simple recipe products": "Προϊόντα απλής συνταγής",
+                           "to add": "Να προσθέσω",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "itemtypetunnel": {
+                           "select product type": "Επιλέξτε Τύπος προϊόντος",
+                           "inventory product": "Προϊόν Inventroy",
+                           "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                           "simple recipe product": "Προϊόντα απλής συνταγής",
+                           "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                        },
+                        "productstunnel": {
+                           "select products to add": "Παρακαλώ Επιλέξτε Προϊόντα για Προσθήκη",
+                           "save": "Αποθήκευση",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "productstypetunnel": {
+                           "select product type": "Επιλέξτε Τύπος προϊόντος",
+                           "inventory product": "Προϊόν Inventroy",
+                           "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                           "simple recipe product": "Προϊόντα απλής συνταγής",
+                           "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                        }
+                     },
+                     "product name": "Όνομα Προϊόντος",
+                     "save": "Αποθήκευση",
+                     "publish": "Δημοσίευση"
+                  },
+                  "inventoryproduct": {
+                     "components": {
+                        "accompaniments": {
+                           "add accompaniment types": "Προσθήκη τύπων συνοδείας"
+                        },
+                        "description": {
+                           "add description": "Προσθήκη περιγραφής"
+                        },
+                        "item": {
+                           "unit size": "Τιμή μονάδος",
+                           "pricing": "Τιμολόγηση",
+                           "accompaniments": "Συνοδευτικά",
+                           "options": "Επιλογές",
+                           "quantity": "Ποσότητα",
+                           "price": "Τιμή",
+                           "discount": "Έκπτωση",
+                           "discounted price": "Discounted Price",
+                           "add option": "Προσθήκη επιλογής",
+                           "add item": "Προσθήκη Είδους"
+                        },
+                        "products": {
+                           "add products": "Προσθήκη προϊόντων",
+                           "discount as accompaniment": "Έκπτωση ως Συνοδεία"
+                        }
+                     },
+                     "tunnels": {
+                        "accompanimenttypetunnel": {
+                           "select accompaniment type": "Επιλέξτε Τύπος Συνοδείας",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "descriptiontunnel": {
+                           "add description and tags": "Προσθήκη περιγραφής και ετικετών",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "tags": "Ετικέτες",
+                           "description": "Περιγραφή"
+                        },
+                        "itemtunnel": {
+                           "select an item": "Επιλέξτε ένα στοιχείο",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε...",
+                           "add": "Add",
+                           "adding": "Adding..."
+                        },
+                        "itemtypetunnel": {
+                           "select item type": "Επιλέξτε Τύπος αντικειμένου",
+                           "inventory item": "Στοιχείο αποθέματος",
+                           "subtitle 1": "μπλα....",
+                           "sachet item": "Στοιχείο φακελάκι",
+                           "subtitle 2": "μπλα ..."
+                        },
+                        "productstunnel": {
+                           "select products to add": "Select Products to Add",
+                           "save": "Σώσει",
+                           "saving": "Saving...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "productstypetunnel": {
+                           "select product type": "Επιλέξτε Τύπος προϊόντος",
+                           "inventory product": "Προϊόν Inventroy",
+                           "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                           "simple recipe product": "Προϊόντα απλής συνταγής",
+                           "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                        },
+                        "pricingtunnel": {
+                           "configure option": "Configure Option",
+                           "save": "Save",
+                           "saving": "Saving..."
+                        }
+                     },
+                     "product name": "Όνομα Προϊόντος",
+                     "save": "Αποθήκευση",
+                     "publish": "Δημοσίευση"
+                  },
+                  "simplerecipeproduct": {
+                     "components": {
+                        "accompaniments": {
+                           "add accompaniment types": "Προσθήκη τύπων συνοδείας"
+                        },
+                        "description": {
+                           "add description": "Προσθέστε περιγραφή"
+                        },
+                        "products": {
+                           "add products": "Προσθήκη προϊόντων",
+                           "discount as accompaniment": "Έκπτωση ως Συνοδεία"
+                        },
+                        "recipe": {
+                           "pricing": "Τιμολόγηση",
+                           "accompaniments": "Συνοδευτικά",
+                           "configure pricing": "Διαμόρφωση τιμολόγησης",
+                           "servings": "Σερβίρισμα",
+                           "visibility": "Visibility",
+                           "default": "Default",
+                           "price": "Τιμή",
+                           "discount": "Έκπτωση",
+                           "discounted price": "Discounted Price",
+                           "meal kit": "Σετ γεύματος",
+                           "ready to eat": "Ετοιμος να φάω",
+                           "add recipe": "Προσθήκη συνταγής"
+                        }
+                     },
+                     "tunnels": {
+                        "accompanimenttypetunnel": {
+                           "select accompaniment type": "Επιλέξτε Τύπος Συνοδείας",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "descriptiontunnel": {
+                           "add description and tags": "Προσθήκη περιγραφής και ετικετών",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "tags": "Ετικέτες",
+                           "description": "Περιγραφή"
+                        },
+                        "priceconfigurationtunnel": {
+                           "configure pricing for serving": "Configure Pricing for Serving",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "type": "Τύπος",
+                           "active": "Ενεργό",
+                           "serving": "Serving",
+                           "visibility": "Visibility",
+                           "default": "Default",
+                           "price": "Τιμή",
+                           "discount": "Discount",
+                           "meal kit": "Σετ γεύματος",
+                           "ready to eat": "Ετοιμος να φάω"
+                        },
+                        "productstunnel": {
+                           "select product to add": "Παρακαλώ Επιλέξτε Προϊόντα για Προσθήκη",
+                           "save": "Αποθήκευση",
+                           "saving": "Saving...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        },
+                        "productstypetunnel": {
+                           "select product type": "Επιλέξτε Τύπος προϊόντος",
+                           "inventory product": "Προϊόν Inventroy",
+                           "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                           "simple recipe product": "Προϊόντα απλής συνταγής",
+                           "subtitle 2": "Το προϊόν Simple Recipe είναι μόνο μία συνταγή, που πωλείται ως κιτ γεύματος καθώς και έτοιμο για κατανάλωση"
+                        },
+                        "recipetunnel": {
+                           "select a recipe": "Επιλέξτε μια συνταγή",
+                           "add": "Add",
+                           "adding": "Adding...",
+                           "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε..."
+                        }
+                     },
+                     "product name": "Όνομα Προϊόντος",
+                     "save": "Αποθήκευση",
+                     "publish": "Δημοσίευση"
+                  },
+                  "tunnels": {
+                     "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε",
+                     "new": "Νέο",
+                     "add items": "Προσθήκη Είδους",
+                     "text": "Επισημάνετε τα στοιχεία σας για να προσθέσετε συνταγές.",
+                     "fill this first to continue adding new items!": "συμπληρώστε το πρώτα για να συνεχίσετε να προσθέτετε νέες μερίδες!",
+                     "add another item": "Προσθήκη άλλου αντικειμένου",
+                     "edit availability": "Επεξεργασία διαθεσιμότητας",
+                     "available for": "Διαθέσιμο για",
+                     "pre-orders": "Προ-παραγγελίες",
+                     "days": "Μέρες",
+                     "realtime": "Πραγματικός χρόνος",
+                     "add product description": "Προσθήκη περιγραφής προϊόντος",
+                     "add search tags": "Προσθήκη ετικετών αναζήτησης",
+                     "type the name of the tag": "πληκτρολογήστε το όνομα της ετικέτας",
+                     "hit enter to register tag name": "Πατήστε enter για να καταχωρήσετε το όνομα της ετικέτας.",
+                     "add product description in 120 words": "Προσθέστε περιγραφή προϊόντος σε 120 λέξεις",
+                     "description will not be saved if empty": "Η περιγραφή δεν θα αποθηκευτεί εάν είναι κενή",
+                     "servings": "Σερβίρισμα",
+                     "price": "Τιμή",
+                     "discounted price": "Τιμή με έκπτωση"
+                  },
+                  "add product description": "Προσθήκη περιγραφής προϊόντος",
+                  "availability": "Διαθεσιμότητα",
+                  "realtime": "Πραγματικός χρόνος",
+                  "pre-order": "Προ-παραγγελίες",
+                  "days": "Μέρες",
+                  "untitled product": "Προϊόν χωρίς τίτλο",
+                  "save": "Αποθήκευση",
+                  "publish": "Δημοσίευση",
+                  "items": "Αντικείμενα",
+                  "add items": "Προσθήκη Είδους",
+                  "recipes for": "Συνταγές για",
+                  "msg 1": "Προσθέστε συνταγές σε αυτό το προϊόν.",
+                  "msg 2": "Επιλέξτε ένα μενού από το αριστερό μενού για διαμόρφωση.",
+                  "pricing": "Τιμολόγηση",
+                  "accompaniments": "Συνοδευτικά",
+                  "make default": "Ορισμός ως προεπιλογή",
+                  "servings": "Σερβίρισμα",
+                  "price": "Τιμή",
+                  "discounted price": "Τιμή με έκπτωση",
+                  "mealkits": "Μεαλκίτσ",
+                  "true": "αληθές",
+                  "ready to eat": "Ετοιμος να φάω",
+                  "select accompaniment types": "Επιλέξτε Τύποι Συνοδείας",
+                  "add accompaniments": "Προσθήκη Συνοδευτικών",
+                  "subtitle": "Επιλέξτε ένα προϊόν από το σωστό μενού για διαμόρφωση!",
+                  "discount as accompaniment": "Έκπτωση ως Συνοδεία"
+               }
+            },
+            "home": {
+               "menu": "Εφαρμογή πωλητή",
+               "products": "Προϊόντα",
+               "10 created so far": "10 δημιουργήθηκαν μέχρι στιγμής",
+               "all active": "Όλα ενεργά",
+               "go to products": "Μεταβείτε στα Προϊόντα",
+               "collections": "Συλλογή",
+               "4 created so far": "4 δημιουργήθηκαν μέχρι στιγμής",
+               "all available": "All available",
+               "go to collections": "Μεταβείτε στις Συλλογές"
+            },
+            "listings": {
+               "collectionslisting": {
+                  "collections": "Collections",
+                  "collection name": "Όνομα Συλλογής",
+                  "categories": "Κατηγορίες",
+                  "products": "Προϊόντα",
+                  "availability": "Availability",
+                  "actions": "Ενέργειες"
+               },
+               "productslisting": {
+                  "inventory": "Αποθηκευτικός χώρος",
+                  "simple recipe": "Απλή συνταγή",
+                  "customizable": "Προσαρμόσιμο",
+                  "combo": "Συνδυασμός",
+                  "loading": "φρτωση",
+                  "error": "Σφάλμα: Δεν ήταν δυνατή η ανάκτηση προϊόντων!",
+                  "start the data-hub server": "Ξεκινήστε τον διακομιστή κόμβου δεδομένων",
+                  "products": "Προϊόντα",
+                  "product name": "Ονομασία προϊόντος",
+                  "labels": "Ετικέτες",
+                  "recipe": "Συνταγή",
+                  "select type of product": "Επιλέξτε Τύπος προϊόντος",
+                  "inventory product": "Inventory Product",
+                  "subtitle 1": "Το προϊόν αποθέματος είναι απλώς ένα αντικείμενο, παρέχεται ή αγοράζεται",
+                  "simple recipe product": "Προϊόντα απλής συνταγής",
+                  "subtitle 2": "Simple Recipe product is only one recipes, sold as Meal Kits as well as Ready to Eat",
+                  "customizable product": "Προσαρμόσιμο προϊόν",
+                  "subtitle 3": "Customizable product has recipe options with one recipe as default",
+                  "combo product": "Προϊόν συνδυασμού",
+                  "subtitle 4": "Combo product is a combination of multiple products"
+               }
+            }
+         }
+      },
+      "settings": {
+         "components": {
+            "loader": {},
+            "sectiontabs": {},
+            "tabs": {
+               "close tab": "Κλείσιμο Καρτέλας"
+            }
+         },
+         "sections": {
+            "header": {
+               "menu": "Μενού",
+               "go back": "Επιστροφή",
+               "go forward": "Μπροστά"
+            },
+            "main": {},
+            "sidebar": {
+               "listings": "Κατάλογος",
+               "users": "Χρήστες",
+               "devices": "Σσκευές",
+               "roles": "Ρόλοι",
+               "apps": "Εφαρμογές",
+               "station": "Σταθμός"
+            }
+         },
+         "views": {
+            "forms": {
+               "device": {
+                  "enter the device name": "Εισάγετε το όνομα της συσκευής",
+                  "launch": "Εκκίνηση",
+                  "users": "Χρήστες",
+                  "select and assign users": "Επιλέξτε και εκχωρήστε χρήστες",
+                  "configure apps": "Διαμόρφωση εφαρμογών",
+                  "add": "Προσθήκη",
+                  "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε"
+               },
+               "role": {
+                  "enter the role name": "Εισαγάγετε το όνομα του ρόλου",
+                  "publish": "Δημοσίευση",
+                  "apps": "Εφαρμογές",
+                  "configure": "Διαμορφώστε",
+                  "select and configure apps": "Επιλέξτε και διαμόρφωση εφαρμογών",
+                  "configure apps": "Διαμόρφωση εφαρμογών",
+                  "add": "Προσθήκη",
+                  "type what you're looking for": "πληκτρολογήστε αυτό που ψάχνετε",
+                  "save": "Αποθήκευση",
+                  "permissions for role": "Άδειες για ρόλο"
+               },
+               "accompanimenttypes": {
+                  "accompaniment types": "Accompaniment Types",
+                  "type": "Type",
+                  "tunnels": {
+                     "addnew": {
+                        "add new types": "Add New Types",
+                        "add": "Add",
+                        "adding": "Adding...",
+                        "enter a type name": "Enter a type name"
+                     }
+                  }
+               },
+               "cuisines": {
+                  "cuisines": "Cuisines",
+                  "name": "Name",
+                  "# of recipes": "# of Recipes",
+                  "tunnels": {
+                     "addnew": {
+                        "add new types": "Add New Types",
+                        "add": "Add",
+                        "adding": "Adding...",
+                        "enter a type name": "Enter a type name"
+                     }
+                  }
+               },
+               "allergens": {
+                  "allergens": "Allergens",
+                  "name": "Name",
+                  "description": "Description",
+                  "tunnels": {
+                     "addnew": {
+                        "add new types": "Add New Types",
+                        "add": "Add",
+                        "adding": "Adding...",
+                        "enter a type name": "Enter a type name"
+                     }
+                  }
+               },
+               "processings": {
+                  "processings": "Processings",
+                  "name": "Name",
+                  "reference count": "Reference Count",
+                  "tunnels": {
+                     "addnew": {
+                        "add new types": "Add New Types",
+                        "add": "Add",
+                        "adding": "Adding...",
+                        "enter a type name": "Enter a type name"
+                     }
+                  }
+               },
+               "units": {
+                  "units": "Units",
+                  "name": "Name",
+                  "reference count": "Reference Count",
+                  "tunnels": {
+                     "addnew": {
+                        "add new types": "Add New Types",
+                        "add": "Add",
+                        "adding": "Adding...",
+                        "enter a type name": "Enter a type name"
+                     }
+                  }
+               }
+            },
+            "home": {
+               "settings app": "Εαρμογή ρυθμίσεων",
+               "users": "Χρήστες",
+               "roles": "Ρόλοι",
+               "apps": "Εφαρμογές",
+               "devices": "Σσκευές",
+               "stations": "Σταθμοί",
+               "master lists": "Master Lists"
+            },
+            "listings": {
+               "appslisting": {
+                  "apps": "Εφαρμογές",
+                  "roles assigned": "Αντιστοίχιση χρήστη"
+               },
+               "deviceslisting": {
+                  "devices": "Σσκευές",
+                  "stations": "Σταθμοί",
+                  "users assigned": "Αντιστοίχιση χρήστη",
+                  "actions": "Ενέργειες"
+               },
+               "roleslisting": {
+                  "roles": "Ρόλοι",
+                  "apps configured": "Οι εφαρμογές διαμορφώθηκαν",
+                  "actions": "Ενέργειες"
+               },
+               "masterlist": {
+                  "master lists": "Master Lists",
+                  "list name": "List name",
+                  "total inputs": "Total inputs",
+                  "allergens": "Allergens",
+                  "cuisines": "Cuisines",
+                  "processings": "Processings",
+                  "accompaniment types": "Accompaniment Types",
+                  "units": "Units"
+               }
+            }
+         }
+      }
+   }
+}
